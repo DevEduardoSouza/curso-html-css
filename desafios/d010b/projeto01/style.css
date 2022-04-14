@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+:root {
+    --font-logo: 'Mochiy Pop P One', sans-serif;
+    --fonte-padra0: 'Roboto', sans-serif;
+    --cor01:#665FFB;
+
+
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+header{
+    background-color: #282B3A;
+    min-height: 80px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+       
+}
+
+header h1{
+    color: white;
+    font-family: var(--font-logo);
+    font-size: 22px;
+    padding-top: 19px;
+    text-align: left;
+    padding-left: 32px;
+    display: inline-block;
+           
+}
+
+
+#input{
+    position: absolute;
+    left: 32%;
+    right: 32%;
+    line-height: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+#input > #busca{
+    width: 100%;
+    height: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-family: var(--fonte-padra0);
+    font-size: 1em;
+    
+    
+}
+
+#input > #logobusca:hover{
+    background-color: var(--cor01);
+    
+      
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#favoritos , #entrar {
+    font-family: var(--fonte-padra0);
+    color: white;
+    display: inline;
+    font-weight: normal;
+    font-size: 16px;
+    position: absolute;
+}
+
+#favoritos{
+    top: 36%;
+    left: 82%;
+}
+
+#entrar{
+    top: 36%;
+    left: 94%;
+}
+
+#entrar > a , #favoritos > a {
+    text-decoration: none;
+    color: white;
+}
+
+#entrar > a:hover , #favoritos > a:hover{
+    color: var(--cor01);
+    transition-duration: .2s;
+}
+
+#entrar > a:active , #favoritos > a:active{
+    color: rgba(255, 255, 255, 0.404);
+}
+   
+#navegacao{
+    text-align: center;
+    padding-top: 10px;
+    height: 29px;
+   
+}
+
+#navegacao a{
+    text-decoration: none;
+    padding: 11px;
+    color: rgba(121, 116, 116, 0.856);
+    font-family: var(--fonte-padra0);
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+#navegacao a:hover{
+    color: rgba(255, 255, 255, 0.973);
+    background-color: rgba(128, 128, 128, 0.651);
+    transition-duration: .2s;
+
+}
+
+#navegacao a.suporte{
+    color: var(--cor01); 
+}
+
+/*
+hr {
+    border: none;
+    height: 1px;
+    color: rgba(51, 51, 51, 0.377);
+    background-color: rgba(51, 51, 51, 0.144);
+}
+*/
+
+
+#frete{
+    background-color: #282B3A;
+    width: 100%;
+    min-height: 44px;
+    
+}
+
+#frete > p{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-family: var(--fonte-padra0);
+    font-size: 20px;
+    color: white;
+
+}
+
+#fretegratis{
+    color: var(--cor01);
+}
+
+.subtitulo{
+    font-family: var(--font-logo);
+    font-size: 0.7em;  
+
+}
+
+.blocobrasil{
+    background-color: gray;
+    width: 118px;
+    margin-top: 122px;
+    display: none;
+    
+}
+
+
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <picture>
+
+
+        <source media="(min-width: 1320px" srcset="img/foto-1280.jpg" type="image/jpg">
+        <source media="(min-width: 1050px" srcset="img/foto-1000.jpg" type="image/jpg">
+        <source media="(min-width: 750px" srcset="img/foto-700.jpg" type="image/jpg">
+        <img src="img/foto-350.jpg" alt="cidade">
+
+    </picture>
+    <!--Usaar 50px a mais para remover a bara de rolagem horizontal-->
+</body>
+</html>

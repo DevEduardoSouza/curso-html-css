@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(0, 255, 255, 0.301);
+}
+#principal{
+    background-color: aqua;
+    text-align: center;
+}
+
+.tecnologia{
+    color:rgb(17, 108, 245);
+}
+
+.basico{
+    color: #008000ce;
+}
+
+
+.intermediario{
+    color: #bbc719af;
+
+}
+
+.avancado{
+    color: #cc0a1ace;
+}
+p{
+    text-align: justify;
+}
