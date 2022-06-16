@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 97vh;
+            /*
             background-color: black;
             background-image: url('imgs/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /*Shorthand - background
+            color > image > position > repeat > {size} > attachment
+
+            size não pode estar na shorthand
+            */
+            
+            background: black url('imgs/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid red;
@@ -27,6 +39,12 @@
 <body>
     <main>
         <h1>Teste de imsgen de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam perferendis, quaerat fuga iure, nobis debitis modi quos, nihil veniam corporis quod aperiam sed inventore assumenda voluptates dolores vitae ab! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque maiores, non enim ipsam atque eos cumque corrupti voluptatem officia quidem, culpa, ipsa dolorum eius! Ipsa quasi porro at eligendi in!</p>
     </main>
 </body>
